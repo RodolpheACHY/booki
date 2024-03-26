@@ -1,0 +1,140 @@
+/* Modules */
+ @import 'sections/appBar.css';
+ @import 'sections/recherches-and-filtres.css';
+ @import 'sections/hebergements-and-populaires.css';
+
+/****** General ***********/
+/* Fonts*/
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Design System*/
+:root {
+  /* Colors */
+  --main-color: #0065FC;
+  --main-bg-color: #F2F2F2;
+  --filter-bg-color: #DEEBFF;
+
+  /* Text Configuration*/
+  --body-font-weight: 400;
+  --body-highlight-font-weight: 400;
+  --header-font-weight: 400;
+  --title-font-weight: 400;
+
+  --body-font-size: 1rem;
+  --body-highlight-font-size: 1.25rem;
+  --header-font-size: 1rem;
+  --title-font-size: 1.375rem;
+
+  --body-line-height: 1.5rem;
+  --body-highlight-line-height: 1.5rem;
+  --header-line-height: 1.188rem;
+  --title-line-height: 1.75rem;
+
+  --overline-offset: 1.125rem;
+  --decoration-thickness: 0.188rem;
+}
+
+.fa-solid {
+  color: var(--main-color);
+  font-size: larger;
+  margin-right: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  /* overflow-x: hidden;  /* empeche le scrolling horizontal */
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-title {
+  margin: 0;
+  font-size: var(--title-font-size) /* 22px */;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  filter: drop-shadow(0px 3px 15px rgba(34, 5, 5, 0.1));
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-imgHerbegement {
+ /* object-fit: cover; */
+  width: 250px; /* Largeur fixe pour l'image */
+  height: 124px; /* Hauteur fixe pour l'image */
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.euro {
+  font-weight: 700;
+}
+
+.neutral-star {
+  color: var(--main-bg-color)
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+  .hebergements-and-populaires {
+      flex-direction: column;
+  }
+
+  .hebergements {
+      width: 100%;
+  }
+
+  .populaires {
+      width: 100%;
+      margin-top: 50px;
+  }
+
+  .populaires-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .populaires-cards a {
+      width: 30%;
+  }
+
+  .populaires-cards .card-title {
+      font-size: 14px;
+  }
+
+  .populaires-cards .card-subtitle {
+      font-size: 13px;
+  }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* ... */
+}

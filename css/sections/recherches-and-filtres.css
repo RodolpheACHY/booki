@@ -1,0 +1,149 @@
+.recherches-and-filtres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.recherches {
+  height : 130px;
+}
+
+.recherches__title {
+  /* width: 924px;
+  height: 53px; */
+  margin-bottom: 8px;
+}
+.recherches-and-filtres__h1 {
+  margin-bottom: 5px;
+}
+
+.recherches-and-filtres__p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.recherches__buttons{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+}
+
+.recherches__iconeLocalisation {
+  background-color: #f2f2f2;
+  width: 50px;
+  height: 49px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black !important;
+  font-size: 18px;
+}
+
+
+.recherches__form {
+  display: flex;
+  flex-direction: row;
+}
+
+.recherches__input {
+  display: flex; /* Permet d'aligner le point d'information au centre */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;
+  text-align: center; /* Centrer le placeholder */
+  border: 1px solid #f2f2f2; /* Définir une bordure grise */
+  padding-left: 20px;
+}
+
+.recherches__input::placeholder {
+  font-weight: bold; /* Mettre le placeholder en gras */
+  color : black;
+  font-size: 18px;
+  width: 147px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.recherches__button[type="submit"] {
+  background-color: var(--main-color);
+  font-weight: bold;
+  color : white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 18px;
+  width: 130px;
+  height: 49px;
+  left: 16px;
+  top: 14px;
+  border:none;
+  
+}
+
+.filtres__h3Boutons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.filtres__h3 {
+  margin: 0 10px; /* Ajoute un espacement horizontal entre les éléments */
+}
+
+.filtres__boutons {
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.filtres__boutonsItem {
+  margin: 0 10px;
+  font-size: 17px;
+  background-color: white;
+  font-weight: bold;
+  height: 50px;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 4px 20px;
+ 
+}
+
+.filtres__boutonsItem:hover,
+.filtres__boutonsItem.active {
+  background-color: #DEEBFF;
+}
+
+.filtres__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-circle {
+  width: 30px; /* Largeur du cercle */
+  height: 30px; 
+  margin-right: 10px;
+  border-radius: 50%; /* Assure que le cercle est arrondi */
+  background-color: #fdfeff; /* Couleur de fond du cercle */
+  border: 1px solid #D9D9D9;
+  border-width: 2px;
+  display: flex; /* Permet d'aligner le point d'information au centre */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
+
+.info-dot {
+  font-size: 15px; /* Taille du point d'information */
+  /*color: #fff; /* Couleur du point d'information */
+}
+
+.filtres__p {
+  font-size: 16px;
+}
