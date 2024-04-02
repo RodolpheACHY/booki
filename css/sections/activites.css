@@ -1,0 +1,51 @@
+.activites {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 35px;
+  }
+
+.activites-cards {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+
+.activites-cards .card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 33px;
+   /* margin-top: 33px; */
+}
+
+.card .no-padding {
+    padding: 0; /* Réinitialise la propriété padding à zéro */
+  }
+
+.activites-cards img {
+  /* height: 60%; */
+  width: 250px;
+  height: 380px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.activites-cards .card-content {
+  height: 40%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  box-sizing: border-box;
+}
+
+.activites-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

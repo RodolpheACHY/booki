@@ -8,6 +8,7 @@
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
+  margin: 35px;
 }
 
 /****** Hebergements ***********/
@@ -18,7 +19,7 @@
 
 .hebergements-cards {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row ; 
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 33px;
