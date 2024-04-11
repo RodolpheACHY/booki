@@ -1,0 +1,121 @@
+.hebergements-and-populaires {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+  background-color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+  width: 65%;
+  /* height: 614px; */
+}
+
+.hebergements-cards {
+  display: flex;
+  flex-direction: row ; 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+
+.hebergements-cards .card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 33px;
+   /* margin-top: 33px; */
+}
+
+.hebergements-cards img {
+  /* height: 60%; */
+  width: 250px;
+  height: 124px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+  height: 40%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+  margin: 0;
+}
+
+.hebergements-cards .card-rating {
+  margin-bottom: 5px;
+}
+
+.hebergements-cards .card-txt {
+  margin-bottom: 8px;
+}
+
+.hebergements__a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+/****** Populaires ***********/
+.populaires {
+  width: 32%;
+}
+
+.populaires-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.populaires-cards .card {
+  display: flex;
+  margin-top: 33px;
+}
+
+.populaires-cards img {
+  width: 33%;
+  height: 136px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.populaires-cards .card-content {
+  width: 67%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.populaires-cards .card-subtitle {
+  margin: 0;
+}
+
+.populaires-cards .card-rating {
+  margin-bottom: 5px;
+}

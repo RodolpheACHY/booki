@@ -41,6 +41,7 @@
 
 .fa-solid {
   color: var(--main-color);
+  font-size: larger;
 }
 
 body {
@@ -100,54 +101,45 @@ a {
   color: var(--main-bg-color)
 }
 
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-
 @media (max-width: 1024px) {
-
-/*********** Commun ************/
-
-  .hebergements, .populaires {
-    width: 100%;
-  }
-
-/********* Heberg&pop **********/
-
   .hebergements-and-populaires {
-    flex-direction: column;
+      flex-direction: column;
   }
 
-/****** Populaires ***********/
+  .hebergements {
+      width: 100%;
+  }
+
+  .populaires {
+      width: 100%;
+      margin-top: 50px;
+  }
 
   .populaires-cards {
-    flex-direction: row;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
   }
+
   .populaires-cards a {
-    height: 146px;
+      width: 30%;
   }
+
   .populaires-cards .card-title {
-    font-size: 14px;
+      font-size: 14px;
   }
+
   .populaires-cards .card-subtitle {
-    font-size: 13px;
+      font-size: 13px;
   }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
-/*********** Commun ************/
-
-  .populaires-cards, .hebergements-cards {
-    flex-direction: column;
-  }
-
-/********* Heberg&pop **********/
-
-  .hebergements-and-populaires {
-    flex-direction: column-reverse;
-  }
-
+  /* ... */
 }

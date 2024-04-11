@@ -2,23 +2,24 @@
   display: flex;
   flex-direction: column;
   padding: 30px;
-  margin: 35px;
+  margin-top: 35px;
+  /* margin-bottom: 35px; */
   }
 
 .activites-cards {
   display: flex;
   flex-direction: row ;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   margin-top: 30px;
-
+  gap: 30px;
 }
 
 .activites-cards .card {
   display: flex;
   flex-direction: column;
-  margin-bottom: 33px;
-   /* margin-top: 33px; */
+  /* margin-bottom: 33px; */
+  /* margin-top: 33px; */
 }
 
 .card .no-padding {
@@ -27,7 +28,7 @@
 
 .activites-cards img {
   /* height: 60%; */
-  width: 250px;
+  width: 100%;
   height: 380px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

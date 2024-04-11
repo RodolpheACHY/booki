@@ -102,7 +102,9 @@
         </div>
         <div class="hebergements-and-populaires">
           <section class="hebergements">
-            <h2 class="section-title">Hébergements à Marseille</h2>
+            <div class="hebergements-title">
+              <h2 class="section-title">Hébergements à Marseille</h2>
+            </div>
             <div class="hebergements-cards">
               <a href="#">
                 <article class="card">
@@ -111,10 +113,12 @@
                     alt="Image de la chambre d'hôtel montrant un lit"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Hôtel du port</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 52<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Hôtel du port</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 52<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -137,10 +141,12 @@
                     class="card-imgHerbegement"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Hôtel Chez Amina</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 96<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Hôtel Chez Amina</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 96<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -163,10 +169,12 @@
                     class="card-imgHerbegement"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Hôtel Les mouettes</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 76<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Hôtel Les mouettes</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 76<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -181,8 +189,6 @@
                   </div>
                 </article>
               </a>
-            </div>
-            <div class="hebergements-cards">
               <a href="#">
                 <article class="card">
                   <img
@@ -191,10 +197,12 @@
                     class="card-imgHerbegement"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Hôtel de la mer</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 46<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Hôtel de la mer</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 46<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -217,10 +225,12 @@
                     class="card-imgHerbegement"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Auberge La Canebière</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 25<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Auberge La Canebière</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 25<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -242,10 +252,12 @@
                     alt="Image de la chambre d'hôtel montrant un lit"
                   />
                   <div class="card-content">
-                    <h3 class="card-title">Auberge Le Panier</h3>
-                    <p class="card-subtitle">
-                      Nuit à partir de 23<span class="euro">€</span>
-                    </p>
+                    <div class="card-txt">
+                      <h3 class="card-title">Auberge Le Panier</h3>
+                      <p class="card-subtitle">
+                        Nuit à partir de 23<span class="euro">€</span>
+                      </p>
+                    </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -261,7 +273,9 @@
                 </article>
               </a>
             </div>
-            <a class="hebergements__a" href="#">Afficher plus</a>
+            <div>
+              <a class="hebergements__a" href="#">Afficher plus</a>
+            </div>
           </section>
           <section class="populaires">
             <div class="populaires-title">
