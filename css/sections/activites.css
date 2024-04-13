@@ -19,12 +19,9 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 33px;
+  padding: 0;
   /* margin-top: 33px; */
 }
-
-.card .no-padding {
-    padding: 0; /* Réinitialise la propriété padding à zéro */
-  }
 
 .activites-cards img {
   /* height: 60%; */

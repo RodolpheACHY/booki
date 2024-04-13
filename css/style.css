@@ -76,10 +76,6 @@ a {
   filter: drop-shadow(0px 3px 15px rgba(34, 5, 5, 0.1));
 }
 
-.card .no-padding {
-  padding: 0; /* Réinitialise la propriété padding à zéro */
-}
-
 .card img {
   object-fit: cover;
 }
