@@ -141,7 +141,11 @@ a {
   .populaires-cards, .hebergements-cards, .activites-cards {
     flex-direction: column;
   }
-
+  .main-container {
+    display: block;
+    padding: 0 5px;
+  }
+  
 /********* Heberg&pop **********/
 
   .hebergements-and-populaires {
