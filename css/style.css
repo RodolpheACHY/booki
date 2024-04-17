@@ -147,5 +147,9 @@ a {
   .hebergements-and-populaires {
     flex-direction: column-reverse;
   }
+  .main-container {
+    padding: 0 5px;
+  }
+  
 
 }
