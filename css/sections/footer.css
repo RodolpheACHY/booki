@@ -32,3 +32,10 @@
     /* color: #fff; */
     text-decoration: none;
 }
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .container {
+        display: block;
+    }
+}
