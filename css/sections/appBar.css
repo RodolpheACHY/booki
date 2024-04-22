@@ -36,15 +36,30 @@
   margin-right: 50px;
   font-size: 16px;
   margin-top: 0;
+  border-top: 2px solid transparent;
+  padding-top: 14px;
 }
 
 .appBar__navItem:hover,
 .appBar__navItem.active {
-  text-decoration: overline var(--main-color);
+  /* text-decoration: overline var(--main-color); */
   color: var(--main-color);
-  text-decoration-thickness: 0.188rem;
-  line-height: 1;
+  border-top-color: var(--main-color);
+  /* text-decoration-thickness: 0.188rem;
+  line-height: 1; */
+  
 }
+
+/* .basic-3.active {
+  background: 
+      linear-gradient(currentColor 0 0) 
+      bottom /var(--d, 0) 3px 
+      no-repeat;
+  transition:0.5s;
+}
+.basic-3:hover {
+  --d: 100%;
+} */
 
 @media (max-width: 768px) {  
   .appBar {
@@ -80,4 +95,23 @@
     flex:1;
     text-align: center;
   }
+
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+  text-decoration: var(--main-color);
+  color: var(--main-color);
+  text-decoration-thickness: 0.188rem;
+  line-height: 1;
+  }
+
+  /* .basic-3.active {
+    background: 
+        linear-gradient(currentColor 0 0) 
+        bottom /var(--d, 0) 3px 
+        no-repeat;
+    transition:0.5s;
+  }
+  .basic-3:hover {
+    --d: 100%;
+  } */
 }
