@@ -199,8 +199,9 @@
   }
 
   .filtres__boutons {
-    display: inline-block;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .filtres__boutonsItem {
