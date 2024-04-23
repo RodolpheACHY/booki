@@ -69,6 +69,7 @@
 }
 
 .recherches__button[type="submit"] {
+  /* position: relative; */ 
   background-color: var(--main-color);
   font-weight: bold;
   color : white;
@@ -80,7 +81,26 @@
   left: 16px;
   top: 14px;
   border:none;
-  
+}
+
+.recherches__button[type="submit"]::after {
+  background-color: var(--main-color);
+  font-weight: 900;
+  color : white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 130px;
+  height: 49px;
+  left: 16px;
+  top: 14px;
+  border:none;
+  content: '\f002';
+  font-family: 'Font Awesome 6 Free'; /* Assurez-vous d'utiliser le bon nom de famille de police */
+  font-weight: 900; /* Font Awesome nécessite un poids de police de 900 pour les icônes solides */
+  /* position: absolute; */
+  transform: translateY(-50%);
+  font-size: 20px; 
+  display: none; /* Cache l'icône par défaut */
 }
 
 .filtres__h3Boutons {
@@ -143,4 +163,31 @@
 
 .filtres__p {
   font-size: 16px;
+}
+
+
+@media (max-width: 768px) { 
+  .recherches__button[type="submit"] {
+    /* position: relative; */
+    background-color:  var(--main-color);
+    font-weight: 900;
+    color : white;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 16px;
+    font-size: 0px;
+    width: 49px; 
+    height: 49px;
+    left: 16px;
+    top: 14px;
+    
+  } 
+
+  .recherches__button[type="submit"]::after {
+     display: inline-flex; /* Montre l'icône  */
+     color : white;
+  }
+  
 }
