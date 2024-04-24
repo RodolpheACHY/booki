@@ -93,14 +93,12 @@
     flex:1;
     text-align: center;
     border-bottom: 2px solid transparent;
+    border-top: none;
     padding-bottom: 15px;
   }
 
   .appBar__navItem:hover,
   .appBar__navItem.active {
-  text-decoration: var(--main-color);
-  text-decoration-thickness: 0.188rem;
-  line-height: 1;
   color: var(--main-color);
   border-bottom-color: var(--main-color);
   }

@@ -24,7 +24,9 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 35px;
-
+}
+.recherches__buttons .mobile-icon {
+  display: none;
 }
 
 .recherches__iconeLocalisation {
@@ -176,22 +178,32 @@
     font-weight: 900;
     color : white;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--main-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 15px 16px;
-    font-size: 0px;
+    padding: 0;
     width: 49px; 
     height: 49px;
     left: 16px;
     top: 14px;
-    
   } 
-
-  .recherches__button[type="submit"]::after {
-     display: inline-flex; /* Montre l'icône  */
-     color : white;
+  .recherches__buttons .mobile-icon {
+    display: block;
+    width: 49px; 
+    height: 49px;
+    color: white;
+    position: relative;
   }
+  .recherches__buttons .mobile-icon:before {
+    position: absolute;
+        left: 14px;
+        top: 12px;
+  }
+  .recherches__buttons .desktop {
+    display: none;
+  }
+
+
   
   .filtres__h3Boutons {
     display: flex;
@@ -219,6 +231,8 @@
     border: 2px solid var(--Grey-Tint2, #D9D9D9); 
     border-radius: 25px;
     padding: 4px 19px;
+    width: 40%;
+        margin-bottom: 10px;
   }
 
 }
