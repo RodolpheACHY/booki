@@ -226,7 +226,7 @@
   .filtres__boutonsItem {
     flex: 0 0 calc(50% - 20px); /* Deux items par ligne en mode mobile */
     margin: 0px;
-    font-size: 17px;
+    font-size: 14px;
     background-color: white;
     font-weight: bold;
     height: 50px;
