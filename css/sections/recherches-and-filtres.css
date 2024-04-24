@@ -136,6 +136,10 @@
   background-color: #DEEBFF;
 }
 
+.filtres__iconeBouton {
+  margin-right: 10px;
+}
+
 .filtres__info {
   display: flex;
   flex-direction: row;
@@ -212,8 +216,12 @@
     background-color: white;
     font-weight: bold;
     height: 50px;
-    border: 2px solid var(--Grey-Tint2, #D9D9D9);                     /* 1px solid #D9D9D9; */
+    border: 2px solid var(--Grey-Tint2, #D9D9D9); 
     border-radius: 25px;
     padding: 4px 19px;
   }
+
+ /*  .filtres__iconeBouton {
+    margin-right: 10px;
+  } */
 }
