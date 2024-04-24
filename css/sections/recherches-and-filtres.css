@@ -225,7 +225,7 @@
 
   .filtres__boutonsItem {
     flex: 0 0 calc(50% - 20px); /* Deux items par ligne en mode mobile */
-    margin: 0 10px;
+    margin: 0px;
     font-size: 17px;
     background-color: white;
     font-weight: bold;
@@ -233,8 +233,7 @@
     border: 2px solid var(--Grey-Tint2, #D9D9D9); 
     border-radius: 25px;
     padding: 4px 19px;
-    width: 40%;
-    margin-bottom: 10px;
+    width: 40%; 
   }
 
 }
