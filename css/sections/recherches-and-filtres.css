@@ -203,8 +203,6 @@
     display: none;
   }
 
-
-  
   .filtres__h3Boutons {
     display: flex;
     flex-direction: column;
@@ -221,6 +219,10 @@
     gap: 20px 0px;
   }
 
+  .filtres__h3 {
+    margin: 0px; /* retrait du margin présent dans la version desktop */
+  }
+
   .filtres__boutonsItem {
     flex: 0 0 calc(50% - 20px); /* Deux items par ligne en mode mobile */
     margin: 0 10px;
@@ -232,7 +234,7 @@
     border-radius: 25px;
     padding: 4px 19px;
     width: 40%;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
 }
