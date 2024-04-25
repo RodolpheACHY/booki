@@ -172,6 +172,13 @@
 
 
 @media (max-width: 768px) { 
+  .recherches__buttons{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+  }
+  
   .recherches__button[type="submit"] {
     /* position: relative; */
     background-color:  var(--main-color);
