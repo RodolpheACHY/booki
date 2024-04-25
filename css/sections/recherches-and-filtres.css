@@ -211,11 +211,11 @@
     display: none;
   }
 
-  .recherches__buttons .iconPercent {
+  .recherches__buttons .iconLocalisationPercent {
     width: 15%; /* Icône à droite */
   }
   
-  .recherches__buttons .formPercent {
+  .recherches__buttons .inputPercent {
     width: 70%; /* Zone de saisie ajustée */
   }
   
