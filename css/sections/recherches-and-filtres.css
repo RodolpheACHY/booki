@@ -180,6 +180,13 @@
     justify-content: space-between;
   }
 
+  .recherches__form {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 285px
+  }
+
   .recherches__buttons > * {
     flex-grow: 0;
     flex-shrink: 0;
