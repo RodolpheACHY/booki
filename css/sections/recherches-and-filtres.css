@@ -182,6 +182,10 @@
     width: 100%;
   }
 
+  .recherches__input {
+   flex-grow: 1;
+  }
+  
   .recherches__button[type="submit"] {
     /* position: relative; */
     background-color:  var(--main-color);
