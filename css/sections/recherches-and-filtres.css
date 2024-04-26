@@ -180,6 +180,11 @@
     justify-content: space-between;
   }
 
+  .recherches__buttons > * {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
   .recherches__button[type="submit"] {
     /* position: relative; */
     background-color:  var(--main-color);
