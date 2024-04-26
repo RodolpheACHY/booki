@@ -225,18 +225,6 @@
     display: none;
   }
 
-  .recherches__buttons .iconLocalisationPercent {
-    width: 15%; /* Icône à droite */
-  }
-  
-  .recherches__buttons .inputPercent {
-    width: 70%; /* Zone de saisie ajustée */
-  }
-  
-  .recherches__buttons .buttonResearchPercent {
-    width: 15%; /* Bouton de validation */
-  }
-
   .filtres__h3Boutons {
     display: flex;
     flex-direction: column;
