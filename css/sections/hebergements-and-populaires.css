@@ -111,4 +111,11 @@
 
 @media (max-width: 768px) { 
 
+.hebergements-and-populaires section,
+.hebergements-cards,
+.populaires-cards
+{
+  gap: 15px;
+}
+
 }
