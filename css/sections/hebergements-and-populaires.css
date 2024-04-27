@@ -107,3 +107,8 @@
 .card-txt {
   gap: 5px;
 }
+
+
+@media (max-width: 768px) { 
+
+}
