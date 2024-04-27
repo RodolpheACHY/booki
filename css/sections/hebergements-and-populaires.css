@@ -127,4 +127,8 @@
   padding-top: 20px; 
   padding-bottom: 20px; 
 }
+
+.hebergements-and-populaires {
+  gap: 15px;
+}
 }
