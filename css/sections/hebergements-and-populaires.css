@@ -126,9 +126,11 @@
 .hebergements-and-populaires section.hebergements {
   padding-top: 20px; 
   padding-bottom: 20px; 
+  background-color: #FFFFFF
 }
 
 .hebergements-and-populaires {
   gap: 15px;
 }
+
 }
