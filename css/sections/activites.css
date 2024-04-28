@@ -51,4 +51,7 @@
     height: 141px;
   }
 
+  .activites-cards {
+    gap: 15px;
+  }
 }
