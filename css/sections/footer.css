@@ -41,5 +41,9 @@
     .footer {
         padding: 30px;
     }
+
+    .footer-content h3 {
+        margin-top: 0px;
+    }
     
 }
