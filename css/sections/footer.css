@@ -49,4 +49,8 @@
     ul li.last-li {
         margin-bottom: 50px;
     }
+    
+    ul li.no_margin-bottom {
+        margin-bottom: 0px;
+    }
 }
