@@ -191,7 +191,8 @@
 
   .recherches__input {
    flex-grow: 0;
-   padding-left: 40px;
+   padding-left: 24px;
+   padding-right: 0px;
   }
   
   .recherches__button[type="submit"] {
