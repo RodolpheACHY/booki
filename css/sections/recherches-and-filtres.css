@@ -149,8 +149,8 @@
 }
 
 .info-circle {
-  width: 30px; /* Largeur du cercle */
-  height: 30px; 
+  min-width: 30px; /* Largeur du cercle */
+  min-height: 30px; 
   margin-right: 10px;
   border-radius: 50%; /* Assure que le cercle est arrondi */
   background-color: #fdfeff; /* Couleur de fond du cercle */
@@ -169,7 +169,7 @@
 .filtres__info {
   margin-bottom: 35px
  }
- 
+
 .filtres__p {
   font-size: 16px;
 }
