@@ -28,6 +28,13 @@
 
 .appBar__li {
   border-top: 2px solid transparent;
+  padding-top: 14px;
+}
+
+.appBar__li:hover,
+.appBar__li.active {
+  color: var(--main-color);
+  border-top-color: var(--main-color);
 }
 
 .appBar__navItem {
@@ -45,15 +52,11 @@
   padding-top: 14px;
 }
 
-.appBar__navItem:hover,
+/* .appBar__navItem:hover,
 .appBar__navItem.active {
-  /* text-decoration: overline var(--main-color); */
   color: var(--main-color);
-  border-top-color: var(--main-color);
-  /* text-decoration-thickness: 0.188rem;
-  line-height: 1; */
-  
-}
+  border-top-color: var(--main-color); 
+} */
 
 /* .basic-3.active {
   background: 
