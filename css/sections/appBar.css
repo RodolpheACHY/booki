@@ -49,24 +49,18 @@
   font-size: 16px;
   margin-top: 0;
   /* border-top: 2px solid transparent; */
-  padding-top: 14px;
+  /* padding-top: 14px;*/
+}
+
+
+li a {
+  display: block; /* Convertit le lien en élément de bloc */
 }
 
 /* .appBar__navItem:hover,
 .appBar__navItem.active {
   color: var(--main-color);
   border-top-color: var(--main-color); 
-} */
-
-/* .basic-3.active {
-  background: 
-      linear-gradient(currentColor 0 0) 
-      bottom /var(--d, 0) 3px 
-      no-repeat;
-  transition:0.5s;
-}
-.basic-3:hover {
-  --d: 100%;
 } */
 
 @media (max-width: 768px) {  
