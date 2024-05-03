@@ -37,6 +37,12 @@
   border-top-color: var(--main-color);
 }
 
+/* .appBar__li:hover .appBar__navItem,
+.appBar__li.active .appBar__navItem {
+  color: var(--main-color);
+  border-top-color: var(--main-color);
+} */
+
 .appBar__navItem {
   font-family: var(--title-font);
   font-style: normal;
