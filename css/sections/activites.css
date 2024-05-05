@@ -46,7 +46,9 @@
 }
 
 @media (max-width: 1024px) {
-
+  .activites-cards img {
+    height: 200px;
+  }
 
 }
 
