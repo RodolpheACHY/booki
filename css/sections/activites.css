@@ -36,6 +36,7 @@
   flex-direction: column;
   /* justify-content: space-between; */
   box-sizing: border-box;
+  max-height: 59px;
 }
 
 .activites-cards .card-title {
