@@ -36,8 +36,6 @@
   flex-direction: column;
   /* justify-content: space-between; */
   box-sizing: border-box;
-  max-height: 70px;
-  justify-content: center;
 }
 
 .activites-cards .card-title {
@@ -52,6 +50,10 @@
     height: 200px;
   }
 
+  .activites-cards .card-content {
+    max-height: 70px;
+    justify-content: center;
+  }
 }
 
 
