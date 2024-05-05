@@ -56,6 +56,11 @@
         padding: 30px;
     }
 
+    .footer-content {   
+        padding-right: 0px; 
+        padding-left: 0px;
+    }
+
     .footer-content h3 {
         margin-top: 0px;
     }
@@ -66,5 +71,7 @@
     
     ul li.no_margin-bottom {
         margin-bottom: 0px;
-    }  
+    }
+
+
 }
