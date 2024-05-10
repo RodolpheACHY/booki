@@ -207,6 +207,7 @@
    flex-grow: 0;
    padding-left: 24px;
    padding-right: 0px;
+   width: 100%;
   }
   
   .recherches__button[type="submit"] {
