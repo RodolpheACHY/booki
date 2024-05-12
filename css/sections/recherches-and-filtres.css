@@ -255,6 +255,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px 0px;
+    width: 100%;
   }
 
   .filtres__h3 {
