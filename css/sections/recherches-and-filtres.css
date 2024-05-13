@@ -267,6 +267,7 @@
     flex-wrap: wrap;
     gap: 20px 0px;
     width: 100%;
+    max-width: none;
   }
 
   .filtres__h3 {
