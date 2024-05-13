@@ -187,6 +187,7 @@
 
   .filtres__boutons {
     display: flex;
+    justify-content: space-between;
   }
 }
 
