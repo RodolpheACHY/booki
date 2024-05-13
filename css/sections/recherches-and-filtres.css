@@ -188,6 +188,7 @@
   .filtres__boutons {
     display: flex;
     justify-content: space-between;
+    max-width: 668px;
   }
 }
 
