@@ -11,12 +11,13 @@
 
 .footer-content {
     flex: 1;
-    margin: 0 20px;
+    padding-right: 20px; 
+    padding-left: 20px;
 }
 
 .footer-content h3 {
-    margin-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .footer-content ul {
@@ -25,16 +26,10 @@
 }
 
 .footer-content ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer-content ul li a {
     /* color: #fff; */
     text-decoration: none;
-}
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-.container {
-    display: block;
-}
 }

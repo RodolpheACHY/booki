@@ -28,9 +28,15 @@
           alt="Logo Booki"
           class="appBar__logo"
         />
-        <nav class="appBar__nav">
-          <a href="#hebergements" class="appBar__navItem">Hébergements</a>
-          <a href="#activites" class="appBar__navItem">Activités</a>
+        <nav class="appBar__navWrapper">
+          <ul class="appBar__nav">
+            <li class="appBar__li">
+              <a href="#hebergements" class="appBar__navItem">Hébergements</a>
+            </li>
+            <li class="appBar__li">
+              <a href="#activites" class="appBar__navItem">Activités</a>
+            </li>
+          </ul>
         </nav>
       </header>
       <main>
@@ -45,11 +51,11 @@
               </p>
             </div>
             <div class="recherches__buttons">
-              <i
-                class="fa-solid fa-location-dot recherches__iconeLocalisation"
-                aria-hidden="true"
-              ></i>
               <form class="recherches__form" action="/rechercher" method="get">
+                <i
+                  class="fa-solid fa-location-dot recherches__iconeLocalisation"
+                  aria-hidden="true"
+                ></i>
                 <input
                   class="recherches__input"
                   type="search"
@@ -58,8 +64,14 @@
                   placeholder="Marseille, France"
                 />
                 <button class="recherches__button" type="submit">
-                  Rechercher
+                  <span class="desktop">Rechercher</span>
+                  <i
+                    class="fa-sharp fa-solid fa-magnifying-glass mobile-icon"
+                  ></i>
                 </button>
+                <!-- <button class="recherches__button">
+                 
+                </button> -->
               </form>
             </div>
           </section>
@@ -71,22 +83,31 @@
               <div class="filtres__boutons">
                 <button class="filtres__boutonsItem">
                   <i
-                    class="fa-solid fa-money-bill-wave"
+                    class="fa-solid fa-money-bill-wave filtres__iconeBouton"
                     style="color: #015af4"
                   ></i>
                   Economique
                 </button>
                 <button class="filtres__boutonsItem">
-                  <i class="fa-solid fa-person" style="color: #015af4"></i>
+                  <i
+                    class="fa-solid fa-person filtres__iconeBouton"
+                    style="color: #015af4"
+                  ></i>
                   Familial
                 </button>
                 <button class="filtres__boutonsItem">
-                  <i class="fa-solid fa-heart" style="color: #015af4"></i>
+                  <i
+                    class="fa-solid fa-heart filtres__iconeBouton"
+                    style="color: #015af4"
+                  ></i>
                   Romantique
                 </button>
                 <button class="filtres__boutonsItem">
-                  <i class="fa-solid fa-fire" style="color: #015af4"></i> Nos
-                  pépites
+                  <i
+                    class="fa-solid fa-fire filtres__iconeBouton"
+                    style="color: #015af4"
+                  ></i>
+                  Nos pépites
                 </button>
               </div>
             </div>
@@ -95,13 +116,13 @@
                 <i class="fa-solid fa-info"></i>
               </div>
               <p class="filtres__p">
-                Plus de 500 logements sont dipsonibles dans cette ville
+                Plus de 500 logements sont disponibles dans cette ville
               </p>
             </div>
           </section>
         </div>
         <div class="hebergements-and-populaires">
-          <section class="hebergements">
+          <section id="hebergements" class="hebergements">
             <h2 class="section-title">Hébergements à Marseille</h2>
             <div class="hebergements-cards">
               <a href="#">
@@ -355,7 +376,7 @@
             </div>
           </section>
         </div>
-        <section class="activites">
+        <section id="activites" class="activites">
           <div class="activites-title">
             <h2 class="section-title">Activités à Marseille</h2>
           </div>
@@ -425,21 +446,23 @@
             <ul>
               <li><a href="#">Fonctionnement du site</a></li>
               <li><a href="#">Conditions générales</a></li>
-              <li><a href="#">Données et confidentialité</a></li>
+              <li class="last-li">
+                <a href="#">Données et confidentialité</a>
+              </li>
             </ul>
           </div>
           <div class="footer-content">
             <h3>Nos hébergements</h3>
             <ul>
               <li><a href="#">Charte qualité</a></li>
-              <li><a href="#">Proposer votre hôtel</a></li>
+              <li class="last-li"><a href="#">Proposer votre hôtel</a></li>
             </ul>
           </div>
           <div class="footer-content">
             <h3>Assistance</h3>
             <ul>
               <li><a href="#">Centre d'aide</a></li>
-              <li><a href="#">Nous contacter</a></li>
+              <li class="no_margin-bottom"><a href="#">Nous contacter</a></li>
             </ul>
           </div>
         </div>

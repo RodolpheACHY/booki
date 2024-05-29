@@ -4,9 +4,6 @@
   justify-content: space-between;
 }
 
-.recherches {
-}
-
 .recherches__title {
   /* width: 924px;
   height: 53px; */
@@ -17,22 +14,24 @@
 }
 
 .recherches-and-filtres__p {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 8px;
+  margin-bottom: 35px;
 }
 
 .recherches__buttons{
   margin-top: 8px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
-
+  margin-bottom: 35px;
+}
+.recherches__buttons .mobile-icon {
+  display: none;
 }
 
 .recherches__iconeLocalisation {
   background-color: #f2f2f2;
-  width: 50px;
-  height: 49px;
+  min-width: 50px;
+  min-height: 49px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   display: flex;
@@ -56,21 +55,25 @@
   border: 1px solid #f2f2f2; /* Définir une bordure grise */
   padding-left: 24px;
   padding-right: 24px;
+  font-weight: bold; 
+  color : black;
+  font-size: 18px; 
 }
 
 .recherches__input::placeholder {
-  font-weight: bold; /* Mettre le placeholder en gras */
+  font-weight: bold; 
   color : black;
-  font-size: 18px;
+  font-size: 18px; 
   width: 147px;
   height: 21px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
 }
 
 .recherches__button[type="submit"] {
+  /* position: relative; */ 
   background-color: var(--main-color);
   font-weight: bold;
   color : white;
@@ -82,7 +85,26 @@
   left: 16px;
   top: 14px;
   border:none;
-  
+}
+
+.recherches__button[type="submit"]::after {
+  background-color: var(--main-color);
+  font-weight: 900;
+  color : white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 130px;
+  height: 49px;
+  left: 16px;
+  top: 14px;
+  border:none;
+  content: '\f002';
+  font-family: 'Font Awesome 6 Free'; /* Assurez-vous d'utiliser le bon nom de famille de police */
+  font-weight: 900; /* Font Awesome nécessite un poids de police de 900 pour les icônes solides */
+  /* position: absolute; */
+  transform: translateY(-50%);
+  font-size: 20px; 
+  display: none; /* Cache l'icône par défaut */
 }
 
 .filtres__h3Boutons {
@@ -90,7 +112,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .filtres__h3 {
@@ -111,12 +133,15 @@
   border: 1px solid #D9D9D9;
   border-radius: 25px;
   padding: 4px 20px;
- 
 }
 
 .filtres__boutonsItem:hover,
 .filtres__boutonsItem.active {
   background-color: #DEEBFF;
+}
+
+.filtres__iconeBouton {
+  margin-right: 10px;
 }
 
 .filtres__info {
@@ -126,8 +151,8 @@
 }
 
 .info-circle {
-  width: 30px; /* Largeur du cercle */
-  height: 30px; 
+  min-width: 30px; /* Largeur du cercle */
+  min-height: 30px; 
   margin-right: 10px;
   border-radius: 50%; /* Assure que le cercle est arrondi */
   background-color: #fdfeff; /* Couleur de fond du cercle */
@@ -143,6 +168,122 @@
   /*color: #fff; /* Couleur du point d'information */
 }
 
+.filtres__info {
+  margin-bottom: 35px
+ }
+
 .filtres__p {
   font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .filtres__h3Boutons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 35px;
+  }
+
+  .filtres__boutons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 668px;
+    gap: 15px;
+  }
+
+  .filtres__boutonsItem {
+    font-size: 16px;
+    margin:0 0;
+  }
+}
+
+
+@media (max-width: 768px) { 
+  .recherches-and-filtres {
+    padding: 0px 20px;
+  }
+
+  .recherches__buttons{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+  }
+  .recherches__form {
+    width: 100%;
+  }
+
+  .recherches__input {
+   flex-grow: 0;
+   padding-left: 24px;
+   padding-right: 0px;
+   width: 100%;
+  }
+  
+  .recherches__button[type="submit"] {
+    /* position: relative; */
+    background-color:  var(--main-color);
+    font-weight: 900;
+    color : white;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    width: 49px; 
+    height: 49px;
+    left: 16px;
+    top: 14px;
+  } 
+  .recherches__buttons .mobile-icon {
+    display: block;
+    width: 49px; 
+    height: 49px;
+    color: white;
+    position: relative;
+  }
+  .recherches__buttons .mobile-icon:before {
+    position: absolute;
+        left: 14px;
+        top: 12px;
+  }
+  .recherches__buttons .desktop {
+    display: none;
+  }
+
+  .filtres__h3Boutons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 35px;
+    gap: 20px;
+  }
+
+  .filtres__boutons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    width: 100%;
+    max-width: none;
+  }
+
+  .filtres__h3 {
+    margin: 0px; /* retrait du margin présent dans la version desktop */
+  }
+
+  .filtres__boutonsItem {
+    flex: 0 0 calc(50% - 5px); /* Deux items par ligne en mode mobile */
+    margin: 0px;
+    font-size: 14px;
+    background-color: white;
+    font-weight: bold;
+    height: 50px;
+    border: 2px solid var(--Grey-Tint2, #D9D9D9); 
+    border-radius: 25px;
+    padding: 4px 19px;
+  }
+
 }

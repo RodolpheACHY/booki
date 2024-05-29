@@ -9,6 +9,7 @@
 /* Fonts*/
 * {
   font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
 }
 
 
@@ -141,7 +142,11 @@ a {
   .populaires-cards, .hebergements-cards, .activites-cards {
     flex-direction: column;
   }
-
+  .main-container {
+    display: block;
+    padding: 0;
+  }
+  
 /********* Heberg&pop **********/
 
   .hebergements-and-populaires {
