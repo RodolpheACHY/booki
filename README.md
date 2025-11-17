@@ -34,7 +34,7 @@ La page est entièrement optimisée pour :
 - **Tablette** (~ 768px)  
 - **Desktop** (≥ 992px)
 
-La maquette a été respectée au pixel près, avec une attention particulière à :
+La maquette a été respectée, avec une attention particulière à :
 - la gestion des espacements,  
 - les proportions des éléments,  
 - la hiérarchie visuelle selon les breakpoints.
