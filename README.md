@@ -43,6 +43,7 @@ La maquette a été respectée au pixel près, avec une attention particulière 
 
 ## 📂 Structure du projet
 
+```
 /
 │── index.html
 │── css/
@@ -50,6 +51,7 @@ La maquette a été respectée au pixel près, avec une attention particulière 
 └── assets/
 ├── images/
 └── icons/
+```
 
 ## 🚀 Lancer le projet
 
