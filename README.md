@@ -46,11 +46,10 @@ La maquette a été respectée, avec une attention particulière à :
 ```
 /
 │── index.html
+│── readMe.md
 │── css/
 │ └── style.css
-└── assets/
-├── images/
-└── icons/
+└── images/
 ```
 
 ## 🚀 Lancer le projet
