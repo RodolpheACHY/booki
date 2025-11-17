@@ -46,10 +46,28 @@ La maquette a été respectée, avec une attention particulière à :
 ```
 /
 │── index.html
-│── readMe.md
+│── README.md
 │── css/
-│ └── style.css
+|    │── styles.css
+│    └── sections/
+|          │── activites.css
+|          │── appBar.css
+|          │── footer.css
+|          │── hebergements-and-populaires.css
+|          └── recherches-and-filtres.css
 └── images/
+      │── activites/
+      |    │── Kilian.jpg 
+      |    │── florian-wehde.jpg
+      |    └── ...
+      │── hebergements/
+      |    │── annie-spratt.jpg
+      |    │── aw-creative.jpg
+      |    └── ...
+      └── logos/
+           │── Booki.png
+           └── Booki@3x.png
+
 ```
 
 ## 🚀 Lancer le projet
