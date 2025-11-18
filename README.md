@@ -93,7 +93,8 @@ Le site fonctionne entièrement côté client.
 
 ## 📄 Aperçu
 
-*(Ajouter ici une capture d’écran ou un aperçu visuel du site)*
+<img width="1551" height="851" alt="image" src="https://github.com/user-attachments/assets/15988795-e0c1-44e8-8f3e-771fa68a44fa" />
+
 
 ---
 
